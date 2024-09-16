@@ -35,22 +35,22 @@ Exemplos Práticos
 1. Cálculo da Média de Notas:
 Imagine que você deseja criar um programa simples em Python para calcular a média de notas de um aluno. Aqui está um exemplo de código:
 
-'''bash
+```bash
 # Solicita ao usuário as notas
 nota1 = float(input("Digite a primeira nota: "))
 nota2 = float(input("Digite a segunda nota: "))
-'''
+
 # Calcula a média
 media = (nota1 + nota2) / 2
 
 # Exibe o resultado
 print("A média das notas é:", media)
-
+```
 Este programa começa solicitando ao usuário duas notas, calcula a média e, em seguida, exibe o resultado. É um exemplo simples de como a lógica de programação pode ser aplicada para resolver um problema do mundo real.
 
 2. Conversor de Moedas:
 Suponha que você queira criar um programa que converta um valor em dólares para reais. Aqui está um exemplo em Python:
-
+```bash
 # Solicita ao usuário o valor em dólares
 dolares = float(input("Digite a quantidade em dólares: "))
 
@@ -62,7 +62,53 @@ reais = dolares * taxa_cambio
 
 # Exibe o resultado
 print("O valor em reais é:", reais)
-
+```
 Neste exemplo, o programa recebe a quantidade em dólares, aplica a taxa de câmbio e converte o valor para reais. Isso demonstra como a lógica de programação pode ser usada para criar uma ferramenta prática de conversão de moeda.
 
 3. Verificação de Números Primos:
+
+Outro exemplo é um programa que verifica se um número é primo ou não. Aqui está um exemplo em Python:
+```bash
+def eh_primo(numero):
+    if numero <= 1:
+        return False
+    for i in range(2, int(numero ** 0.5) + 1):
+        if numero % i == 0:
+            return False
+    return True
+
+# Solicita ao usuário um número
+numero = int(input("Digite um número: "))
+
+# Verifica se é primo
+if eh_primo(numero):
+    print("É um número primo.")
+else:
+    print("Não é um número primo.")
+```
+Neste programa, a lógica de programação é usada para determinar se um número é primo ou não, com base em uma série de verificações. Isso ilustra como a lógica pode ser aplicada para resolver problemas matemáticos.
+
+4. Gerador de Sequência de Fibonacci:
+Um programa que gera os primeiros n números da sequência de Fibonacci. Aqui está um exemplo em Python:
+```bash
+def fibonacci(n):
+    a, b = 0, 1
+
+ for _ in range(n):
+        print(a, end=' ')
+        a, b = b, a + b
+
+# Solicita ao usuário quantos números da sequência deseja gerar
+n = int(input("Quantos números da sequência de Fibonacci você deseja gerar? "))
+
+fibonacci(n)
+```
+Neste exemplo, a lógica de programação é usada para gerar os primeiros n números da sequência de Fibonacci. Isso demonstra como a lógica pode ser aplicada para criar programas que geram padrões matemáticos complexos.
+
+Por fim, a lógica de programação desempenha um papel fundamental na resolução de problemas e no desenvolvimento de software. Os exemplos apresentados neste artigo ilustram como a lógica de programação pode ser aplicada em situações do mundo real, desde cálculos simples de média de notas até a geração de sequências matemáticas complexas. Praticar a lógica de programação é essencial para aprimorar suas habilidades de programação e lógica.
+
+A conexão entre lógica de programação e algoritmos é inegável. A lógica é o alicerce sobre o qual os algoritmos são construídos. Portanto, se você deseja se destacar como programador, comece investindo tempo e esforço no desenvolvimento de suas habilidades de lógica de programação e na criação de algoritmos eficazes.
+
+Agora que você está familiarizado com esses conceitos, você pode começar a praticar a lógica de programação e aprimorar suas habilidades como programador.
+
+Lembre-se de que a prática constante é o caminho para o sucesso nesse campo fascinante da tecnologia.
