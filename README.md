@@ -9,13 +9,13 @@ A Conexão entre Lógica de Programação e Algoritmos
 Praticar lógica de programação: Exemplos Práticos em Python
 Exemplos Práticos
 
-##Entendendo a Lógica de Programação
+## Entendendo a Lógica de Programação
 
 A lógica de programação é o conjunto de regras e técnicas que os programadores utilizam para projetar e desenvolver programas de computador. É a habilidade de pensar de forma lógica e estruturada, decompondo um problema complexo em etapas mais simples. O objetivo é criar algoritmos(palavra nova? fica tranquilo!) claros e eficientes, que possam ser traduzidos em código de programação.
 
 Um bom programador não é apenas alguém que sabe escrever código, mas também alguém que sabe pensar de forma lógica e resolver problemas de maneira eficaz. Isso envolve a capacidade de identificar padrões, organizar informações e criar soluções elegantes para desafios específicos.
 
-##A Importância da Lógica de Programação
+## A Importância da Lógica de Programação
 
 A lógica de programação desempenha um papel fundamental no desenvolvimento de software e na resolução de problemas. Aqui estão algumas razões pelas quais essa habilidade é essencial:
 
