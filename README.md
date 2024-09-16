@@ -32,7 +32,8 @@ Ao praticar a lógica de programação, você aprende a criar algoritmos sólido
 Praticar lógica de programação: Exemplos Práticos em Python
 Agora que você compreende a importância da lógica de programação e sua conexão com algoritmos, é hora de ver como essa habilidade é aplicada na prática. Vamos explorar alguns exemplos práticos de como a lógica de programação é usada para resolver problemas reais, usando a linguagem de programação Python.
 
-Exemplos Práticos
+## Exemplos Práticos
+
 1. **Cálculo da Média de Notas**:
 Imagine que você deseja criar um programa simples em Python para calcular a média de notas de um aluno. Aqui está um exemplo de código:
 
